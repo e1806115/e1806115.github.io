@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>オンラインショップ</title>
+    <link rel="stylesheet" href="./css/base.css">
+</head>
+
+<header>
+    <h1 class="orange">山口農園のオンラインショップ</h1>
+    <img src="document/なし.jpg" alt="なし" width="300">
+    <img src="document/ぶどう.jpg" alt="ぶどう" width="300">
+</header>
+
+<body>
+
+    <div>
+        <h3>【なし】</h3>
+        一箱6個入りで販売しています。
+        <br>山口農園では、幸水・豊水・新高の3種類を栽培しています。
+
+        <br><br> <b>いつどんななしが食べられるの？？</b>
+        <br><button type="button" onclick="pear(1)">7月初旬から8月上旬</button>
+        <button type="button" onclick="pear(2)">8月下旬から9月</button>
+        <button type="button" onclick="pear(3)">9月から10月</button>
+
+    </div>
+
+    <div>
+        <h3>【ぶどう】</h3>
+        一箱3房入りで販売しています。
+        <br>山口農園では、巨峰・ピオーネの2種類を栽培しています。
+
+        <br><br> <b>いつどんなぶどうが食べられるの？？</b>
+        <br><button type="button" onclick="greap(1)">6月から7月</button>
+        <button type="button" onclick="greap(2)">7月中旬から8月中旬</button>
+        
+    </div>
+
+
+    <p>【購入フォーム】</p>
+    ※なしとぶどう両方ご購入の場合はそれぞれでフォームにお答えください。
+
+    <form action="#" method="POST">
+        <div>
+            <label for="last-name">姓：</label>
+            <input type="text" name="lastname">
+            <label>名：
+                <input type="text" name="firstname">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                電話番号：
+                <input type="tel">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                メールアドレス：
+                <input type="email">
+            </label>
+        </div>
+
+        <label>
+            <input type="radio" name="type" value="pear">
+            なし
+        </label>
+
+        <label>
+            <input type="radio" name="type" value="grape">
+            ぶどう
+        </label>
+
+        <div>
+            <label>
+                数量（箱の個数）：
+                <input type="quantity">
+            </label>
+        </div>
+
+        <div>
+            <label for="requests">質問や要望：</label>
+            <textarea name="requests" id="requests" cols="30" rows="10"></textarea>
+        </div>
+
+
+        <div>
+            <input type="submit" value="送信する">
+            <input type="reset" value="リセット">
+
+        </div>
+    </form>
+    </div>
+
+    <p>
+        購入フォーム送信後にこちらのメールアドレスより確認のメールを送信します。
+        <br><a href="mail:y.nouen7@gmail.com">y.nouen7@gmail.com</a>
+    </p>
+
+    <br>
+    <div>
+        <a href="index.html">ホームに戻る</a>
+    </div>
+
+    <script src="js/sample.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+ul{
+    list-style: none;
+}
+
+a:hover{
+    font-size: 2em;
+}
+
+a:link{
+    color: rgb(62, 20, 201);
+}
+
+a:visited{
+    color: purple;
+}
+
+h1{
+    text-align: center;
+
+    background-color: rgb(161, 241, 164);
+
+}
+.blown{
+background-color: rgb(220, 194, 159);
+
+}
+
+.orange{
+    background-color: rgb(255, 205, 139);
+}
+
+.pink{
+    background-color: rgb(255, 209, 216);
+}
